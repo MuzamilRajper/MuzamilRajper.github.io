@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzamil Hussain | Mobile App Developer</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --text: #334155;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background-color: var(--light);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3a8a, var(--primary));
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .app-grid {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary);
+            color: white;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 1rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            margin-left: 0.5rem;
+        }
+        .btn-secondary:hover {
+            background: #eff6ff;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Muzamil Hussain</h1>
+        <p>Software Engineering & Mobile Application Developer</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>My Applications</h2>
+            <div class="app-grid">
+                <div class="app-icon">AI</div>
+                <div>
+                    <h3>AICalc - Scientific Calculator AI Math</h3>
+                    <p>An intelligent scientific calculator app designed to handle everyday math equations and complex problem-solving efficiently.</p>
+                    <a href="#" class="btn">View on Play Store</a>
+                    <a href="/app-ads.txt" class="btn btn-secondary">app-ads.txt</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Privacy & Compliance</h2>
+            <p>We are fully compliant with standard developer guidelines, including COPPA requirements and secure ads programmatic delivery via verified app-ads.txt pathways.</p>
+            <a href="#" class="btn btn-secondary" style="margin-left:0;">Privacy Policy</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Muzamil Hussain. All rights reserved.
+    </footer>
+
+</body>
+</html>
